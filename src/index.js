@@ -96,12 +96,4 @@ async function handleRequest(request) {
       });
     }
   }
-
-  // const jsonData = JSON.stringify(data, null, 2);
-  // console.log(jsonData);
-  // return new Response(jsonData, {
-  //   headers: {
-  //     'content-type': 'application/json;charset=UTF-8',
-  //   },
-  // });
 }
